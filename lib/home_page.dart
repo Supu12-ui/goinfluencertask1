@@ -24,23 +24,23 @@ class home_page extends StatelessWidget {
           actions: [
             IconButton(onPressed: () =>{}, icon:Icon(Icons.add_box_rounded),color: Colors.blue.shade400,iconSize: 30,)
           ],
-          leading: Icon(Icons.add_circle_outline,color: Colors.pink),
+          leading: Icon(Icons.add_circle_outline,color: Colors.pink,size: 30,),
         ),),
 
         body:ListView(
           padding: const EdgeInsets.all(8),
           children: <Widget>[
             Container(
-              height: 60,
+              height: 65,
 
               decoration: BoxDecoration(
                   gradient:
 
-                  const LinearGradient(colors: [Colors.blue, Colors.white,Colors.blue]),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  const LinearGradient(colors: [Colors.blue, Colors.blueAccent]),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))),
               child:new Center(
 
-                  child: const Center(child: Text('WallPaper',style: TextStyle(fontSize: 20),),
+                  child: const Center(child: Text('WallPaper',style: TextStyle(fontSize: 20,color: Colors.white)),
                   ),
 
               ),
@@ -48,54 +48,54 @@ class home_page extends StatelessWidget {
             ),
             SizedBox(height: 18),
             Container(
-              height: 60,
+              height: 65,
               decoration: BoxDecoration(
                   gradient:
-                  const LinearGradient(colors: [Colors.pinkAccent, Colors.white,Colors.pinkAccent]),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  const LinearGradient(colors: [Colors.pink, Colors.pinkAccent,Colors.pinkAccent]),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))),
 
                 child:new Center(
 
-              child: const Center(child: Text('ImageEditor',style: TextStyle(fontSize: 20),))
+              child: const Center(child: Text('ImageEditor',style: TextStyle(fontSize: 20,color: Colors.white),))
                 ),
             ),
             SizedBox(height: 18),
             Container(
-              height: 60,
+              height: 65,
               decoration: BoxDecoration(
                   gradient:
-                  const LinearGradient(colors: [Colors.red, Colors.white,Colors.red]),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  const LinearGradient(colors: [Colors.red, Colors.redAccent]),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))),
 
               child:new Center(
 
-                  child: const Center(child: Text('Ringtones',style: TextStyle(fontSize: 20))
+                  child: const Center(child: Text('Ringtones',style: TextStyle(fontSize: 20,color: Colors.white))
                   ),
 
               ),
             ),
             SizedBox(height: 18),
             Container(
-              height: 60,
+              height: 65,
               decoration: BoxDecoration(
                   gradient:
-                  const LinearGradient(colors: [Colors.deepPurpleAccent, Colors.white,Colors.deepPurpleAccent]),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  const LinearGradient(colors: [Colors.orange, Colors.orangeAccent]),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))),
               child:new Center(
 
-                  child: const Center(child: Text('HomeScreen',style: TextStyle(fontSize: 20),))
+                  child: const Center(child: Text('HomeScreen',style: TextStyle(fontSize: 20,color: Colors.white),))
               ),
             ),
             SizedBox(height: 18),
             Container(
-              height: 60,
+              height: 65,
               decoration: BoxDecoration(
                   gradient:
-                  const LinearGradient(colors: [Colors.lightGreenAccent, Colors.white,Colors.lightGreenAccent]),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+                  const LinearGradient(colors: [Colors.green, Colors.lightGreenAccent]),
+                  borderRadius: BorderRadius.all(Radius.circular(15.0))),
               child:new Center(
 
-                  child: const Center(child: Text('Frame',style: TextStyle(fontSize: 20),))
+                  child: const Center(child: Text('Frame',style: TextStyle(fontSize: 20,color: Colors.white),))
               ),
             ),
 
