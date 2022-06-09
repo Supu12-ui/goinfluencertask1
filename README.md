@@ -19,23 +19,105 @@
   bloc: ^8.0.3
   device_info_plus: ^3.2.3 
    ```
-
+***
 ## _Project Structure_
 
 * #### dart_tool
-> it c
+   > It contains ``` package_config.json , version  ``` file  .
 * #### github
-    ###### └───workflows
+    ###### └───workflows  
 * #### andriod 
     ######  ├───app
     ######  └───gradle
 * #### assets
-  > it contains different type of font and images used in appilcation
+  > it contains different type of ``` Satoshi```fonts  and images used in application.
 * #### configs
   * ##### dev
-            ├───android
+            ├───android {google-services.json file}
             |───ios
   * ##### prod
-        ├───android    
-        ├───ios
+            ├───android   {google-services.json file}
+            ├───ios
+        
 * #### ios
+   * #####  Flutter
+   * ##### Runner
+   * ##### Runner.xcodeproj
+  * ##### Runner.xcworkspace
+* #### lib
+    * ##### api
+      > It contain different type of dart api `GraphQl `, `future<T>`.
+   
+  * #####  blocs
+       >  It is  flutter widget which requires a bloc and builder function.
+  ```
+        ├───auth
+        ├───fetch_token
+        ├───login
+        └───onboarding
+  ```
+    
+   * ##### constants
+     > It contains ```const keyword``` with variables in  constants.dart file
+   * ##### models
+     > It helps to determine the structure of the data.
+  
+  * ##### pages
+    > In Pages  contains influencer details,post page,profile,splash screen ,tabs etc directory.
+    
+    ```
+         ├───create_post
+         ├───extras
+         ├───home
+         ├───influencer_details
+         ├───login
+         ├───post_page
+         ├───profile
+         ├───showcase
+         ├───signup
+         ├───splash_screen
+         │──tabs
+             ├───discover
+             ├───home_tab
+             └───settings
+         ├───verify-account
+         └───Webview
+     ```
+       
+* ##### repos
+        > It contains only one file ```user.dart```.
+           
+    * ##### utility
+* #### web
+     * ##### icons
+     * ##### splash
+     
+* #### windows
+***
+## _Andriod Version_
+|Version name|Version code|
+|------------|-----------|
+|minsdkVersion|23|
+|targetsdkVersion||
+|compilesdkVersion||
+***
+## _IOS Version_
+|Version name|Version code|
+|------------|-----------|
+|plist version|1.0|
+***
+
+ 
+
+     
+
+
+   
+
+
+
+
+
+
+
+
