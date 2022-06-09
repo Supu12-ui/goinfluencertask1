@@ -29,6 +29,7 @@
 * #### andriod 
     ######  ├───app
     ######  └───gradle
+    #######  ├───build.gradle
 * #### assets
   > it contains different type of font and images used in appilcation
 * #### configs
